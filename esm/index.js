@@ -24,5 +24,5 @@ export * from './sizing';
 export { default as spacing } from './spacing';
 export * from './spacing';
 export { default as style } from './style';
-export { default as text } from './typographtexty';
+export { default as text } from './text';
 export * from './text';
