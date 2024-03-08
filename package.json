@@ -1,0 +1,38 @@
+{
+  "name": "@qodev/system",
+  "version": "4.12.2",
+  "private": false,
+  "author": "Qodev Team",
+  "description": "Qodev System - Design system for Qodev.",
+  "main": "./index.js",
+  "keywords": [
+    "react",
+    "react-component",
+    "system"
+  ],
+  "peerDependencies": {
+    "@types/react": "^16.8.6 || ^17.0.0",
+    "react": "^16.8.0 || ^17.0.0",
+    "react-dom": "^16.8.0 || ^17.0.0"
+  },
+  "peerDependenciesMeta": {
+    "@types/react": {
+      "optional": true
+    }
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.4.4",
+    "@qodev/utils": "^4.11.3",
+    "csstype": "^2.5.2",
+    "prop-types": "^15.7.2"
+  },
+  "sideEffects": false,
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "module": "./esm/index.js",
+  "typings": "./index.d.ts"
+}
